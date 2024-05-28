@@ -1,0 +1,295 @@
+@media (max-width: 1050px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .bg-shadow h1, .about-us h1  {
+        font-size: 35px;
+    }
+
+    .info .container, .about-us .container, .differences .container, .solutions .container, .faq .container, .contact .container{
+        width: 100vw;
+        padding: 0 30px;
+    }
+
+    .first-info img, .second-info img, .about-us .photo img  {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-us p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .about-us p br {
+        display: none;
+    }
+
+    .statistics .statistic {
+        width: 300px;
+    }
+
+    .differences h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .differences .why-choose .choose {
+        width: 170px;
+    }
+
+    .how-do .process {
+        width: 300px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .bg-shadow h1 br, .about-us h1 br {
+        display: none;
+    }
+
+    .first-info, .second-info {
+        align-items: center;
+    }
+
+    .first-info img, .second-info img, .about-us .photo img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .text-button {
+        padding-left: 20px;
+    }
+
+    .text-button h1 {
+        font-size: 30px;
+    }
+
+    .second-info .text-button {
+        padding-right: 20px;
+    }
+
+    .photo-about-us {
+        align-items: center;
+    }
+
+    .statistics .statistic {
+        width: 200px;
+    }
+
+    .statistic .number {
+        font-size: 40px;
+    }
+
+    .why-choose {
+        gap: 20px;
+    }
+
+    .differences .why-choose .choose {
+        width: 130px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .example-solutions .example {
+        font-size: 12px;
+    }
+
+    .example img {
+        width: 40px;
+    }
+
+    .how-do .process {
+        width: 230px;
+        text-align: center;
+    }
+
+    .contact h1 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .bg-shadow h1, .about-us h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .bg-shadow p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .bg-shadow h3 {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    button.whats {
+        font-size: 14px;
+    }
+
+    .info .container {
+        padding: 0 10px;
+    }
+
+    .first-info, .second-info{
+        flex-direction: column;
+    }
+
+    .text-button h1 {
+        font-size: 30px;
+    }
+
+    .text-button h1 br {
+        display: none;
+    }
+
+    .text-button p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .about-us .photo-about-us {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo {
+        width: auto;
+        height: auto;
+    }
+
+    .differences .container {
+        padding: 0 20px;
+    }
+
+    .differences h1 {
+        font-size: 25px;
+    }
+
+    .differences p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .differences .bars p {
+        font-size: 12px;
+    }
+
+    .differences .bars .bar {
+        width: 100px;
+    }
+
+    .statistics {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 80px;
+    }
+
+
+    .statistics .statistic {
+        width: 320px;
+    }
+
+    .why-choose {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .differences .why-choose .choose {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .solutions h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .example-solutions {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .example-solutions .example {
+        font-size: 16px;
+    }
+
+    .example img {
+        width: 70px;
+    }
+
+    section.faq {
+        padding-top: 30px;
+    }
+
+    section.faq .container {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    section.faq .bars {
+        width: 200px;
+    }
+
+    .faq h1 {
+        font-size: 25px;
+    }
+
+    .questions {
+        width: 330px;
+    }
+
+    .ask {
+        font-size: 16px;
+    }
+
+    section.faq .bars p {
+        letter-spacing: 0px;
+    }
+
+    .faq h1 {
+        text-align: center;
+    }
+
+    .how-do {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .how-do .process {
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    section.contact .container {
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .mapBox {
+        width: 330px;
+        height: 230px;
+    }
+
+    .contact h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .contact-address p, address {
+        font-size: 14px;
+    }
+}
